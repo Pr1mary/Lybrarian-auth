@@ -1,0 +1,30 @@
+{
+  "name": "lybrarian-auth",
+  "version": "1.0.0",
+  "description": "lybrarian authentication api",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pr1mary/Lybrarian-auth.git"
+  },
+  "keywords": [
+    "lybrarian",
+    "auth",
+    "api"
+  ],
+  "author": "Rafli",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Pr1mary/Lybrarian-auth/issues"
+  },
+  "homepage": "https://github.com/Pr1mary/Lybrarian-auth#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jose": "^3.12.3",
+    "mongoose": "^5.12.14"
+  }
+}
