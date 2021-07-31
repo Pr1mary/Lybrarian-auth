@@ -4,7 +4,9 @@
   "description": "lybrarian authentication api",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "build-docker": "docker build -t lyb-auth:latest .",
+    "run-docker": "docker run -d -p 35771:35771 lyb-auth:latest"
   },
   "repository": {
     "type": "git",
